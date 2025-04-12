@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.grid-container {
+.grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto;
@@ -12,7 +12,7 @@
       background-color: green;
       color: white;
       font-size: 20px;
-      padding: 20px;
+      padding: 15px;
       text-align: left;
     }
 
@@ -57,4 +57,3 @@
     .item10 {
       grid-column: 2 / 5;
     }
-  </style>
